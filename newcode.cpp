@@ -8,6 +8,7 @@ int main() {
     cin >> len;
     string str;
 
+    // getchar()会读入cin剩余的一个换行符, cin以空格，换行等作为结尾
     getchar();
     for(int i = 0; i < len; i++) {
         getline(cin, str);
